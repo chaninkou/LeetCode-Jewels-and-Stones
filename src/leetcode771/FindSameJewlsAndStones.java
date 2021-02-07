@@ -6,7 +6,7 @@ public class FindSameJewlsAndStones {
     public int numJewelsInStones(String J, String S) {
         int res = 0;
         
-        HashSet set = new HashSet();
+        HashSet<Character> set = new HashSet<>();
         
         for (char j: J.toCharArray()){
             set.add(j);
